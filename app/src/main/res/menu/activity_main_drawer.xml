@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="@string/menu_inbox" />
+        <item
+            android:id="@+id/nav_sentMail"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="@string/menu_sentMail" />
+
+        <item
+            android:id="@+id/nav_outbox"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/menu_outbox" />
+    </group>
+
+    <item android:title="Folders">
+        <menu>
+            <item
+                android:id="@+id/nav_lloyds"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="@string/nav_lloyds" />
+
+            <item
+                android:id="@+id/nav_mmu"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="@string/nav_mmu" />
+        </menu>
+    </item>
+</menu>
